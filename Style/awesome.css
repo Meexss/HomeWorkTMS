@@ -1,0 +1,48 @@
+/*awesome*/
+.awesome__blok {
+margin-bottom: 47px;
+}
+
+.sup-container__text {
+   text-align: center;
+}
+.awesome__title {
+   padding-top: 55px;
+   font-size: 36px;
+   font-weight: 400;
+   color: #000000;
+   text-transform: uppercase;
+
+}
+.awesome__text {
+   color: #86878B;
+   margin-bottom: 71px;
+}
+
+.awesome__title:after {
+   content: "";
+   display: block;
+   width: 170px;
+   height: 3px;
+   background-color: #F38281;
+   margin: 55px auto 40px;
+
+}
+
+.awesome__blok {
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+}
+
+.awesome__blok-title {
+   padding: 38px 50px;
+   margin-top: 39px;
+   font-family: 'Open Sans';
+   font-size: 24px;
+   font-weight: 700;
+}
+.awesome__block-text {
+   width: 370px;
+   line-height: 21px;
+}
