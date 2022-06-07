@@ -1,0 +1,71 @@
+/*customers*/
+
+.customers {
+   margin-top: 50px;
+}
+
+.customer-blok__text {
+   width: 370px;
+   height: 180px;
+   background: #E2E2E2;
+   border-radius: 10px;
+   position: relative;
+}
+
+.customer-blok__text:before {
+   content: "";
+   display: block;
+   width: 30px;
+   height: 20px;
+   background: url("/JPG/Polygon\ 1 (2).png") center no-repeat;  
+   position: absolute;
+   top: 180px;
+   right: 280px;   
+   z-index: 2;
+}
+
+
+.customer-blok__text-1 {
+   padding: 45px 0;
+   color: #86878B;
+   line-height: 21px;
+
+}
+
+.customer-blok {
+   display: flex;
+   text-align: center;
+   justify-content: space-around;
+
+}
+
+.customer-blok__people {
+   display: flex;
+   margin-top: 66px;
+   text-align: center;
+   margin-bottom: 64px;
+   justify-content:space-between;
+}
+
+
+.customer-blok__title-1 {
+   padding: 15px 0;
+   width: 270px;
+   text-align: left;
+   margin-bottom: 15px;
+   font-family: 'Open Sans';
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   color: #000000;
+}
+
+.customer-blok__icon {
+   width: 70px;
+   height: 70px;
+}
+
+.customer-blok__sup-title {
+   text-align: left;
+   font-weight: 400;
+}

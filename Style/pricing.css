@@ -10,11 +10,13 @@
    justify-content: space-around;
    text-align: center;
    padding-bottom: 50px;
+
 }
 
 .pricing-blok__basic, .pricing-blok__optima-active, .pricing-blok__pro {
    width: 370px;
    transform: transform 1s lineral;
+   
 }
 
 .pricing-blok__title {
@@ -48,6 +50,8 @@
    background-color: #FFFFFF;
    border-top: 2px solid #F5F5F5;
    border-bottom: 2px solid #F5F5F5;
+   text-transform: capitalize;
+   
 }
 
 /*pricing-blok__optima-active {

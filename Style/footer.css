@@ -1,0 +1,23 @@
+/*footer*/
+.container.footer-color {
+   background-color: #000000;
+   width: 1480px;
+   text-align: center;
+   padding-bottom: 27px;
+}
+
+.footer-icon {
+   padding-top: 30px;
+   padding-bottom: 28px;
+}
+
+.social-img {
+   width: 53px;
+   height: 53px;
+   margin-left: 32px;
+}
+
+.footer-text {
+   line-height: 21px;
+   color: rgba(255, 255, 255, 0.5);
+}

@@ -23,6 +23,7 @@ body {
    padding: 0 15px;
    margin: 0 auto;
 }
+
 .sup-container {
    max-width: 1170px;
    margin: 0 auto;
@@ -31,9 +32,11 @@ body {
 
 /* Header*/
 
+
 .navigation {
+
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
    background-color: #000000;
    padding: 20px 0;
@@ -46,14 +49,20 @@ body {
    font-family: 'Open Sans';
    font-weight: 600;
    vertical-align: auto;
+   margin-right: 170px;
 }
 
 .header-item {
    display: inline;
    align-items: center;
    margin-left: 50px;
+
    text-decoration: none;
    color: #fff; 
    text-align: center;
    vertical-align: middle;
+}
+
+.logo {
+   margin-left: 115px;
 }

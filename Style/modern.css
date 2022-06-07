@@ -1,9 +1,11 @@
 /*Modern*/
 .banner__img {
-   background-image: url("../JPG/banner_header.jpg");
+   background-image: 
+   linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+   url("../JPG/banner_header.jpg");
    background-position: center;
    background-repeat: no-repeat;
-   width: 1510px;
+   width: 1480px;
    height: 1026px;
    z-index: 2;
 }
@@ -50,7 +52,7 @@
 
 .modern__text {
    width: 270px;
-   margin-bottom: 52px;
+   margin-bottom: 72px;
    line-height: 21px;
 }
 
@@ -114,6 +116,7 @@
    text-decoration: none;
    background-color: #EC7979;
    width: 470px;
+
    border-radius: 0px 0px 10px 10px;
    text-align: center;
    padding: 20px 0;

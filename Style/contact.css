@@ -1,0 +1,48 @@
+/*contact*/
+.contact__item, .contact__item-text {
+   border-top: none;
+   border-bottom: 1px solid #BDBDBD;
+   border-left: none;
+   border-right: none;
+   width: 571px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 19px;
+   color: #BDBDBD;
+}
+
+.cotact-blok {
+   display: flex;
+   justify-content: space-around;
+}
+
+.contact__item {
+   
+   margin-bottom: 50px;
+   padding-bottom: 14px;
+}
+
+.contact__item-text {
+   padding-bottom: 186px;
+   margin-left: 30px;
+}
+
+.btn-contact {
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+
+.contact-button {
+   padding: 20px 148px;
+   text-decoration: none;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 25px;
+   color: #FFFFFF;
+   background-color: #EC7979;
+}
