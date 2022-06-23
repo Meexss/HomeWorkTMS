@@ -34,12 +34,13 @@ body {
 
 
 .navigation {
-
    display: flex;
    justify-content: space-between;
    align-items: center;
    background-color: #000000;
    padding: 20px 0;
+   width: 1510px;
+   overflow: hidden;
 }
 
 .header-nav {
@@ -637,4 +638,9 @@ margin-bottom: 47px;
 .footer-text {
    line-height: 21px;
    color: rgba(255, 255, 255, 0.5);
+}
+header {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }

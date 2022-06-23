@@ -35,10 +35,11 @@
    background-image: 
    linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
    url("/JPG/banner_footer.jpg");
+   background-size: 100%;
    background-position: center;
    background-repeat: no-repeat;
    /*background: url("/JPG/banner_footer.jpg") center no-repeat;*/
-   width: 1480px;
+   width: 100%;
    height: 442px;
 }
 

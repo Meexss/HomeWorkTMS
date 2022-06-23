@@ -44,8 +44,8 @@
    font-size: 14px;  
 }
 
-.tabs>label:not(:first-of-type) {
-   border: none;
+.tabs>label:not(:active) {
+   border: 1px solid #C6CBCD;
 }
 
 .tabs>input[type="radio"]:checked+label {

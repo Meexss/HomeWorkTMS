@@ -16,12 +16,13 @@
    content: "";
    display: block;
    width: 30px;
-   height: 20px;
-   background: url("/JPG/Polygon\ 1 (2).png") center no-repeat;  
+   height: 30px;
    position: absolute;
-   top: 180px;
+   top: 165px;
    right: 280px;   
-   z-index: 2;
+   z-index:1;
+   background-color: #E2E2E2;
+   transform: rotate(45deg);
 }
 
 

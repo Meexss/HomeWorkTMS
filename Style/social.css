@@ -1,7 +1,6 @@
 /*social*/
 .social_back {
    background-color: #F8EFEF;
-   width: 1480px;
    height: 140px;
    
 }
@@ -11,10 +10,12 @@
    justify-content: space-around;
    align-items: center;
    margin-bottom: 18px;
+   padding-top: 20px;
 }
 
 .block-text {
    width: 470px;
+   padding-top: 10px;
 }
 
 .social__title {
@@ -22,8 +23,7 @@
    font-weight: 700;
    font-family: 'Open Sans';
    color: #333333;
-   margin-bottom: 18px;
-   padding-top: 20px;
+
    padding-bottom: 20px;
 }
 

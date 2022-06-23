@@ -19,8 +19,6 @@ body {
 
 .container {
    width: 100%;
-   max-width: 1510px;
-   padding: 0 15px;
    margin: 0 auto;
 }
 
@@ -31,14 +29,17 @@ body {
 
 
 /* Header*/
+.header-container {
+   background-color: #000000;
+}
 
 
 .navigation {
-
+   width: 1510px;
+   margin: 0 auto;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background-color: #000000;
    padding: 20px 0;
 }
 

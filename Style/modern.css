@@ -4,8 +4,9 @@
    linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
    url("../JPG/banner_header.jpg");
    background-position: center;
+   background-size: 100%;
    background-repeat: no-repeat;
-   width: 1480px;
+   width: 100%;
    height: 1026px;
    z-index: 2;
 }
@@ -18,7 +19,7 @@
 }
 
 .modern__left {
-   
+ 
    color: #FFFFFF;
 }
 
@@ -65,9 +66,11 @@
    font-family: 'Open Sans';
    font-weight: 600;
    text-align: center;
+   
 }
 
 .modern__right {
+   position: relative;
    margin-top: 208px;
    background-color: #FFFFFF;
    border-radius: 10px;
@@ -116,8 +119,8 @@
    text-decoration: none;
    background-color: #EC7979;
    width: 470px;
-
    border-radius: 0px 0px 10px 10px;
    text-align: center;
    padding: 20px 0;
+   bottom: 0;
 }

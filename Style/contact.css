@@ -24,10 +24,10 @@
    padding-bottom: 14px;
 }
 
-.contact__item-text {
+/*.contact__item-text {
    padding-bottom: 186px;
    margin-left: 30px;
-}
+}*/
 
 .btn-contact {
    text-align: center;
@@ -45,4 +45,9 @@
    line-height: 25px;
    color: #FFFFFF;
    background-color: #EC7979;
+}
+
+textarea {
+   resize: none;
+   padding-bottom: 15px;
 }
