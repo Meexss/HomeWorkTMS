@@ -3,8 +3,7 @@
    background-image: 
    linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
    url("../JPG/banner_header.jpg");
-   background-position: center;
-   background-size: 100%;
+   background-size: cover;
    background-repeat: no-repeat;
    width: 100%;
    height: 1026px;
@@ -12,19 +11,18 @@
 }
 
 .modern{   
-   
    display: flex;
-   flex:  1 1 0;
+   justify-content: space-between;
    
 }
 
 .modern__left {
- 
    color: #FFFFFF;
+   margin-left: 115px;
 }
 
 .modern__logo {
-   padding-top: 231px;
+   margin-top: 231px;
    margin-bottom: 58px;
    width: 170px;
    height: 55px;
@@ -76,6 +74,7 @@
    border-radius: 10px;
    width: 470px;
    height: 450px;
+   margin-right: 20px;
 
 }
 
@@ -118,9 +117,140 @@
    color: #fff;
    text-decoration: none;
    background-color: #EC7979;
-   width: 470px;
+   width: 100%;
    border-radius: 0px 0px 10px 10px;
    text-align: center;
    padding: 20px 0;
    bottom: 0;
+}
+
+
+@media (max-width: 1023px) {
+   .banner__img {
+   height: 768px;
+   }
+
+   .modern__logo {
+      margin-top: 150px;
+      margin-bottom: 42px;
+      width: 112px;
+      height: 41px;
+   }
+
+
+   .modern__right {
+      margin-top: 137px;
+      width: 398px;   
+      height: 450px;
+   }
+
+   .modern__item {
+      width: 298px;
+   }
+
+   .modern_text-form {
+      font-size: 18px;
+   }
+   .btn_Started {
+      font-size: 15px;
+
+   }
+
+
+   .modern__title {
+      font-size: 36px;
+      line-height: 42px;
+   }
+
+   .modern__title:after {
+      margin-top: 42px;
+      margin-bottom: 31px;
+      width: 115px;
+   }
+
+   .modern__text {
+      width: 183px;
+      margin-bottom: 47px;
+      font-size: 14px;
+   }
+
+   .btn_download {
+      padding: 13px 50px;
+      font-size: 18px;
+      
+   }
+
+}
+
+@media (max-width: 375px) {
+   .banner__img {
+   height: 1005px;
+   }
+
+   .modern__logo {
+      display: none;
+   }
+   .modern{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .modern__right {
+      margin: 56px 16px 50px 16px;
+      width: 288px;   
+      height: 381px;
+   }
+
+   .modern__item {
+      width: 240px;
+      margin-bottom: 33px;
+      margin-left: 20px;
+   }
+
+   .modern_text-form {
+      margin-bottom: 0;
+      font-size: 14px;
+   }
+   .btn_Started {
+      font-size: 15px;
+
+   }
+
+   .modern__left {
+      text-align: center;
+      margin: 84px 16px 18px 16px;
+
+   }
+
+   .modern__title {
+      line-height: 42px;
+      margin: 0;
+      width: 288px;
+      font-size: 36px;
+      height: 168px;
+
+   }
+
+   .modern__title:after {
+      margin-top: 42px;
+      width: 134px;
+      margin-left: 70px;
+
+   }
+
+   .modern__text {
+      margin-top: 86px;
+      width: 288px;
+      height: 32px;
+      margin-bottom: 58px;
+      font-size: 14px;
+   }
+
+   .btn_download {
+      padding: 13px 99px;
+      font-size: 18px;
+      
+   }
+
 }

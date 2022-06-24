@@ -50,14 +50,13 @@ body {
    font-family: 'Open Sans';
    font-weight: 600;
    vertical-align: auto;
-   margin-right: 170px;
+   padding-right: 170px;
 }
 
 .header-item {
    display: inline;
    align-items: center;
    margin-left: 50px;
-
    text-decoration: none;
    color: #fff; 
    text-align: center;
@@ -66,4 +65,42 @@ body {
 
 .logo {
    margin-left: 115px;
+}
+
+.open {
+   display: none;
+}
+
+@media (max-width:1024px) {
+   .navigation {
+      width: 1024px;
+      
+   }
+   .logo {
+      margin-left: 115px;
+   }
+
+   .header-nav {
+      margin-right: 20px;
+   }
+}
+
+@media (max-width: 375px) {
+   .navigation {
+      width: 320px;
+      
+   }
+   .logo {
+      margin-left: 20px;
+   }
+
+   .header-nav {
+      display: none;
+   }
+
+   .open {
+      display: block;
+      margin-right: 35px;
+   }
+
 }
