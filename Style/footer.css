@@ -20,3 +20,30 @@
    line-height: 21px;
    color: rgba(255, 255, 255, 0.5);
 }
+
+@media (max-width: 1023px) {
+   .social-img {
+      width: 33px;
+      height: 33px;
+   }
+
+   .footer-text {
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 16px;
+      color: rgba(255, 255, 255, 0.5);
+
+   }
+}
+
+@media (max-width: 375px) {
+
+   .social-img {
+      width: 20px;
+      height: 20px;
+      margin-left: 21px;
+   }
+
+}

@@ -81,13 +81,14 @@ body {
    }
 
    .header-nav {
+      padding: 0;
       margin-right: 20px;
    }
 }
 
 @media (max-width: 375px) {
    .navigation {
-      width: 320px;
+      width: 318px;
       
    }
    .logo {

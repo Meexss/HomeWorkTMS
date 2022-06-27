@@ -35,8 +35,7 @@
    background-image: 
    linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
    url("/JPG/banner_footer.jpg");
-   background-size: 100%;
-   background-position: center;
+   background-size: cover;
    background-repeat: no-repeat;
    /*background: url("/JPG/banner_footer.jpg") center no-repeat;*/
    width: 100%;
@@ -54,4 +53,38 @@
    padding: 20px 150px;
    border: 2px solid #FFFFFF;
    
+}
+
+@media (max-width: 375px) {
+
+   .awesome__title-color {
+      font-size: 24px;
+      width: 100%;
+      margin: 0;
+      padding-top: 50px;
+   }
+   .sup-container__text{
+      width: 100%;
+      margin: 0;
+
+   }
+
+   .awesome__title-color:after {
+      margin: 50px auto 16px;
+   
+   }
+
+   .awesome__text-color{
+      font-size: 14px;
+      margin-left: 16px;
+      margin-bottom: 120px;
+   }
+   
+   .stylish-button {
+      padding: 20px 100px;
+
+      
+   }
+
+
 }

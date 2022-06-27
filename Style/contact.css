@@ -12,6 +12,10 @@
    line-height: 19px;
    color: #BDBDBD;
 }
+.contact__item-text {
+   margin-right: 16px;
+   margin-left: 16px;
+}
 
 .cotact-blok {
    display: flex;
@@ -19,7 +23,7 @@
 }
 
 .contact__item {
-   
+   margin-left: 16px;
    margin-bottom: 50px;
    padding-bottom: 14px;
 }
@@ -50,4 +54,37 @@
 textarea {
    resize: none;
    padding-bottom: 15px;
+}
+
+
+@media (max-width: 1023px) {
+   .contact__item, .contact__item-text {
+      width: 485px;
+   }
+   .contact-button {
+      padding: 20px 100px;
+   }
+
+
+
+}
+
+@media (max-width: 375px) {
+   .cotact-blok {
+      flex-direction: column;
+      margin-top: 64px;
+   }
+
+   .contact__item, .contact__item-text {
+      width: 268px;
+
+   }
+
+   .btn-contact {
+      margin-bottom: 40px;
+   }
+   
+   .contact-button {
+      padding: 20px 70px;
+}
 }

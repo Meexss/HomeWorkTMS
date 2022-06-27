@@ -98,3 +98,119 @@
 .tab {
    margin-bottom: 54px;
 }
+
+@media (max-width: 1023px) {
+   .tabs>div {
+      font-size: 14px;
+      height: 386px;
+   }
+
+   .tab-1__container {
+      width: 482px;
+      margin-left: 84px;
+      margin-right: 40px;
+      margin-bottom: 27px;
+   }
+   
+
+   .contant__tab-1 {
+      width: 992px;
+      height: 386px;
+   }
+
+   .tabs {
+      width: 992px;
+      margin: 50px 16px;
+   }
+
+   .tab-1__container-2 img {
+      width: 398px;
+      height: 100%;
+   }
+
+   .tab-1 {
+      font-size: 24px;
+      padding: 32px 0 ;
+   }
+   
+   .tab__text, .tab__text-2 {
+      width: 100%;
+      font-size: 16px;
+      line-height: 16px;
+   }
+
+   .tab-1__btn {
+      width: 232px;
+   }
+
+}
+
+   @media (max-width: 375px) {
+
+      .tab-1__container-2 img {
+         display: none;
+      }
+      #content-1{
+         height: 431px;
+      }
+
+      .tabs {
+         width: 288px;
+         margin: 50px 16px;
+         height: 531px;
+      }
+      .contant__tab-1 {
+         width: 288px;
+         height: 431px;
+      }
+
+      .tab-1__container {
+         width: 244px;
+         margin-left: 24px;
+         margin-right: 21px;
+         margin-bottom: 27px;
+         text-align: center;
+         
+      }
+
+      .tab__text, .tab__text-2 {
+         width: 100%;
+         font-size: 13px;
+         line-height: 15px;
+      }
+
+      .tab__text-2 {
+         margin-bottom: 45px;
+      }
+
+      .tab-1 {
+         font-size: 18px;
+         padding: 32px 0 ;
+      }
+
+      .tab-1__btn {
+         padding: 16px 80px;
+      
+      }
+
+      .tabs>label {
+         display: inline-block;
+         text-align: center;
+         vertical-align: middle;
+         user-select: none;
+         border: 1px solid #C6CBCD;
+         padding: 10px 27px;
+         font-size: 16px;
+         line-height: 1.5;
+         transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+         cursor: pointer;
+         position: relative;
+         top: 1px;
+         text-transform: uppercase;
+         border-radius: 5px 5px 0px 0px;
+         font-family: 'Open Sans';
+         font-style: normal;
+         font-weight: 400;
+         font-size: 14px;  
+      }
+}

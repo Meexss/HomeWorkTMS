@@ -76,3 +76,39 @@
    font-weight: bold;
    
 }
+
+@media (max-width: 1023px) {
+   .pricing-blok__basic, .pricing-blok__optima-active, .pricing-blok__pro {
+      width: 318px;      
+   }
+
+
+
+}
+
+@media (max-width: 375px) {
+   .pricing-blok__basic, .pricing-blok__optima-active, .pricing-blok__pro {
+      width: 288px;    
+      margin-bottom: 27px;  
+   }
+   .pricing-blok {
+      flex-wrap: wrap;
+   }
+
+   .pricing-blok__title {
+      font-size: 18px;
+   }
+   
+   .pricing-blok__price {
+      font-size: 24px;
+   }
+
+   .price-blok__sup-title {
+      font-size: 14px;
+   }
+   
+   .pricing-blok_spce {
+      font-size: 14px;
+      
+   }
+}
