@@ -75,8 +75,19 @@
 .customer-blok__item {
    width: 319px;
 }
+input[type="radio" i]{
+   display: none;
+}
+
+.slider>label {
+   display: none;
+}
 
 @media (max-width: 1023px) {
+
+   .slider>label {
+      display: none;
+   }
    .customer-blok__text {
       width: 317px;
       height: 180px;
@@ -123,9 +134,8 @@
 }
 
 @media (max-width: 375px) {
-   .clean{
-      display: none;
-   }
+
+
    .customer-blok__text {
       width: 288px;
       height: 180px;
@@ -152,6 +162,67 @@
       margin-left: 16px;
    }
 
+
+
+   .slider {
+      position: relative;
+      font-size: 0;
+      }
+
+   .slider>input[type="radio"] {
+      display: none;
+      }
+
+   .slider>div {
+      display: none;
+   }
+
+    /* делаем видимым контент, который выбран пользователем в качестве активированной радиокнопки */
+   #mytab-button-1:checked~#mycontent-1,
+   #mytab-button-2:checked~#mycontent-2,
+   #mytab-button-3:checked~#mycontent-3 {
+      display: block;
+   }
+
+   .slider>label {
+      position: absolute;
+      z-index: 100;
+      text-align: center;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;   
+      background: #ccc;
+      cursor: pointer;   
+      transition: background-color .2s;
+   }
+
+   .btn-3{
+      top: 380px;
+      left: 170px;
+      margin: 0 10px;
+   }
+
+   .btn-2{
+      top: 380px;
+      left: 150px;
+      margin: 0 10px;
+   }
+
+   .btn-1{
+      top: 380px;
+      left: 130px;
+      margin: 0 10px;
+   }
+
+   .slider>label:not(:first-of-type) { 
+      border-left: none;
+   }
+
+   .slider>input[type="radio"]:checked+label {
+      background-color: #eee;
+      border-bottom: 1px solid #eee;
+   }
 
 
 }

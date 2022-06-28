@@ -18,6 +18,7 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans:wght@600;700&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="./JPG/favicon (1).ico" type="image/x-icon">
    <title>AXIT</title>
 </head>
 <body>
@@ -26,14 +27,14 @@
          <div class="header-container">    
             <nav class="navigation">
                <img src="./JPG/logo.png" alt="" class="logo">
-               <div class="header-nav">
-                     <a href="#features" class="header-item">Features</a>
-                     <a href="#about" class="header-item">About</a>
-                     <a href="#pricing" class="header-item">Pricing</a>
-                     <a href="#reviews" class="header-item">Reviews</a>
-                     <a href="#contactus" class="header-item">Contact</a>
-               </div>
-               <a class="open"><img src="./JPG/Vector (4).png" class="icon-burger" alt=""></a>
+               <ul class="header-nav" >
+                     <li><a href="#features" class="header-item">Features</a></li>
+                     <li><a href="#about" class="header-item">About</a></li>
+                     <li><a href="#pricing" class="header-item">Pricing</a></li>
+                     <li><a href="#reviews" class="header-item">Reviews</a></li>
+                     <li><a href="#contactus" class="header-item">Contact</a></li>
+               </ul>
+               <a href="#id01" class="open"><img src="./JPG/Vector (4).png" class="icon-burger" alt=""></a>
             </nav>
          </div> 
       </div>
@@ -212,60 +213,74 @@
          <a name="reviews"></a>
          <div class="container">
             <div class="sup-container">
-               <div class="sup-container__text">
+               <div class="sup-container__text ">
                   <h2 class="awesome__title">what our customers are saying</h2>
                   <div class="awesome__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                </div>
-               <div class="customer-blok">
-                  <div class="customer-blok__item clean">
-                     <div class="customer-blok__text">
-                        <p class="customer-blok__text-1">Lorem ipsum dolor sit amet, 
-                           consectetur adipisicing elit. Doloribus 
-                           accusamus expedita repellat similique 
-                           odio aspernatur ex, architecto eaque 
-                           quo suscipit.</p>
-                     </div>
-                     <div class="customer-blok__people">
-                        <img src="/JPG/Ellipse 7.png" alt="" class="customer-blok__icon">
-                        <div class="cistomer-blok__title">
-                           <h4 class="customer-blok__title-1">Davis Rhiel Madsen</h4>
-                           <h5 class="customer-blok__sup-title">Manager</h5>
+               <div class="slider customer-blok">
+                  <input type="radio" name="mytab-button" id="mytab-button-1" value="" checked>
+                  <label for="mytab-button-1" class="btn-1">1</label>
+                  <input type="radio" name="mytab-button" id="mytab-button-2" value="">
+                  <label for="mytab-button-2" class="btn-2">2</label>
+                  <input type="radio" name="mytab-button" id="mytab-button-3" value="">
+                  <label for="mytab-button-3" class="btn-3">3</label>
+               <!--<div class="customer-blok">-->
+                  <div id="mycontent-1">
+                     <div class="customer-blok__item">
+                        <div class="customer-blok__text">
+                           <p class="customer-blok__text-1">Lorem ipsum dolor sit amet, 
+                              consectetur adipisicing elit. Doloribus 
+                              accusamus expedita repellat similique 
+                              odio aspernatur ex, architecto eaque 
+                              quo suscipit.</p>
+                        </div>
+                        <div class="customer-blok__people">
+                           <img src="/JPG/Ellipse 7.png" alt="" class="customer-blok__icon">
+                           <div class="cistomer-blok__title">
+                              <h4 class="customer-blok__title-1">Davis Rhiel Madsen</h4>
+                              <h5 class="customer-blok__sup-title">Manager</h5>
+                           </div>
                         </div>
                      </div>
                   </div>
-                  <div class="customer-blok__item">
-                     <div class="customer-blok__text">
-                        <p class="customer-blok__text-1">Lorem ipsum dolor sit amet, 
-                           consectetur adipisicing elit. Doloribus 
-                           accusamus expedita repellat similique 
-                           odio aspernatur ex, architecto eaque 
-                           quo suscipit.</p>
-                     </div>
-                     <div class="customer-blok__people">
-                        <img src="./JPG/Ellipse 7 (1).png" alt="" class="customer-blok__icon">
-                        <div class="cistomer-blok__title">
-                           <h4 class="customer-blok__title-1">Jaydon Rosser</h4>
-                           <h5 class="customer-blok__sup-title">Manager</h5>
+                  <div id="mycontent-2">
+                     <div class="customer-blok__item">
+                        <div class="customer-blok__text">
+                           <p class="customer-blok__text-1">Lorem ipsum dolor sit amet, 
+                              consectetur adipisicing elit. Doloribus 
+                              accusamus expedita repellat similique 
+                              odio aspernatur ex, architecto eaque 
+                              quo suscipit.</p>
+                        </div>
+                        <div class="customer-blok__people">
+                           <img src="./JPG/Ellipse 7 (1).png" alt="" class="customer-blok__icon">
+                           <div class="cistomer-blok__title">
+                              <h4 class="customer-blok__title-1">Jaydon Rosser</h4>
+                              <h5 class="customer-blok__sup-title">Manager</h5>
+                           </div>
                         </div>
                      </div>
                   </div>
-                  <div class="customer-blok__item clean">
-                     <div class="customer-blok__text">
-                        <p class="customer-blok__text-1">Lorem ipsum dolor sit amet, 
-                           consectetur adipisicing elit. Doloribus 
-                           accusamus expedita repellat similique 
-                           odio aspernatur ex, architecto eaque 
-                           quo suscipit.</p>
-                     </div>
-                     <div class="customer-blok__people ">
-                        <img src="./JPG/Ellipse 7 (2).png" alt="" class="customer-blok__icon">
-                        <div class="cistomer-blok__title">
-                           <h4 class="customer-blok__title-1">Cooper Dorwart</h4>
-                           <h5 class="customer-blok__sup-title">Manager</h5>
+                  <div id="mycontent-3">
+                     <div class="customer-blok__item">
+                        <div class="customer-blok__text">
+                           <p class="customer-blok__text-1">Lorem ipsum dolor sit amet, 
+                              consectetur adipisicing elit. Doloribus 
+                              accusamus expedita repellat similique 
+                              odio aspernatur ex, architecto eaque 
+                              quo suscipit.</p>
+                        </div>
+                        <div class="customer-blok__people ">
+                           <img src="./JPG/Ellipse 7 (2).png" alt="" class="customer-blok__icon">
+                           <div class="cistomer-blok__title">
+                              <h4 class="customer-blok__title-1">Cooper Dorwart</h4>
+                              <h5 class="customer-blok__sup-title">Manager</h5>
+                           </div>
                         </div>
                      </div>
                   </div>
                </div>
+            </div>
             </div> 
          </div>
       </section>

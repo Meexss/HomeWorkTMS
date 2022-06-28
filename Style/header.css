@@ -44,6 +44,8 @@ body {
 }
 
 .header-nav {
+   display: inline-flex;
+   list-style-type: none;
    top: 50px;
    width: 570px;
    font-size: 14px;
@@ -101,7 +103,6 @@ body {
 
    .open {
       display: block;
-      margin-right: 35px;
    }
 
 }
