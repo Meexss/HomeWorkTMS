@@ -1,0 +1,26 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meexss/HomeWorkTMS.git"
+  },
+  "author": "MP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Meexss/HomeWorkTMS/issues"
+  },
+  "homepage": "https://github.com/Meexss/HomeWorkTMS#readme",
+  "devDependencies": {
+    "parcel": "^2.6.2",
+    "sass": "^1.53.0"
+  }
+}
